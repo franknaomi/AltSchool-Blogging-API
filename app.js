@@ -33,8 +33,8 @@ const server = require('http').Server(app);
 // Start the server
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
-  winston.info(`Server running on port ${port}`);
-  // console.log(`Server running on port ${port}`);
+  // winston.info(`Server running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
 
 async function closeServer() {
